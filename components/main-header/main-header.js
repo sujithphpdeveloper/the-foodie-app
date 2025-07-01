@@ -10,7 +10,7 @@ export default function MainHeader() {
     return <>
         <MainHeaderBackground/>
         <header className={classes.header}>
-            <Link className={classes.logo} href="/public">
+            <Link className={classes.logo} href="/">
                 <Image src={logoImg} alt="The Foode App" priority width={100} height={100}/>
                 Food is ALL!
             </Link>
