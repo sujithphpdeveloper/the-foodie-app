@@ -15,7 +15,7 @@ export default function MealsPage() {
             <h1>Meals Page</h1>
             <p>Lorem Ipsum</p>
             <p className={classes.cta}>
-                <Link href='/share'>Share Your Favourite Recipe</Link>
+                <Link href='/meals/share'>Share Your Favourite Recipe</Link>
             </p>
         </header>
         <main className={classes.main}>
