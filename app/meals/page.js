@@ -3,6 +3,7 @@ import Link from "next/link";
 import MealsGrid from "@/components/meals/meals-grid";
 import {getMeals} from "@/lib/meals";
 import {Suspense} from "react";
+import {error} from "next/dist/build/output/log";
 
 async  function Meals() {
     const meals = await getMeals();
